@@ -1,0 +1,23 @@
+Labürindimängu juhend.
+
+Mängu mängimiseks käivita LabürintV3.exe .
+Mängu eesmärk on labürindis olev mehike juhatada labürindist välja.
+Selleks siseta nuppude abil käigud mällu: "samm edasi", "pööre paremale", "pööre vasakule".
+Kui sammud sisetatud vajuta "go".
+Mälu tühjendamiseks vajuta "x".
+
+Uute tasemete tegemiseks ava kaasasolev Book1.xls fail ja muuda Exelis:
+
+NB! kõik kastid peavad täidetud olema (eriti panna tähele, et tühikud on näiliselt tühjades ruutudes)
+
+# - sein
+tühik - hele põrand
+. - tume põrand
+> - start (näoga paremale heledal põrandal)
+F - finish (hele põrand)
+
+järgmiseks vali export ja formaadiks vali text (tab separated).
+nime võid jätta sama, book1.txt.
+järgmisena käivita konverter.exe, mis teeb antud faili mängule söödavaks.
+sisend failiks seesama book1.txt
+väljund failiks taseme numbriga, mida muudad tase*.txt
